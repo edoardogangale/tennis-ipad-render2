@@ -1,0 +1,9 @@
+{
+  "name":"tennis-ipad-reborn",
+  "version":"1.0.0",
+  "private":true,
+  "description":"Rebuilt iPad-first multiplayer 3D tennis game",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"express":"^4.21.2","socket.io":"^4.8.1"}
+}

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tennis-ipad-reborn
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
